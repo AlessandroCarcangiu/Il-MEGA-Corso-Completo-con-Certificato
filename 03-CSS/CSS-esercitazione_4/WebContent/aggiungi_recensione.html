@@ -1,0 +1,98 @@
+<!-- 
+- Crea un form per inserire i dati necessari per la creazione di un nuovo oggetto, utilizzando il tipo di input corretto (testuale, selezione singola o multipla).
+- NB non preoccuparti di definire l'attributo action del form, lo vedremo meglio quando studieremo la parte sui server 
+ -->
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog Cinema</title>
+		<meta name="description" content="Blog Alessandro Carcangiu Cinema">
+		<meta name="keywords" content="Film, Fantasy, Cinema, SerieTv">
+		<meta name="author" content="Alessandro Carcangiu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_1.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_2.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_3.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_4.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_3_task_2.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_4_task_1.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_4_task_2.css">
+	</head>
+	<body>
+		
+		<header>
+			<h1 class="logo">Header</h1>
+			
+			<div id="menu">
+				<ul>
+					<li id="current_page"><a href="#">Main</a></li>
+					<li><a href="aggiungi_recensione.html">Aggiungi una nuova recensione</a></li>
+					<li><a href="recensioni_tabella.html">Recensioni scritte</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<nav id="content-sidebar">
+			<h1>Sidebar</h1>
+			
+			<input type="text" value="Cerca recensione">
+		</nav>
+		
+		<section id="content-main">
+			<h1>Scrivi Recensione</h1>
+			
+			<form>
+				
+				<!-- Nome Film -->
+				<label for="nome_film">Nome Film</label>
+				<input type="text" id="nome_film" name="name_film" value="Inserisci Nome Film"/>
+				
+				<!-- Genere -->
+				<label for="genere">Genere</label>
+				<select id="genere" name="genere" multiple size="3">
+					<option value="thriller">Thriller</option>
+					<option value="giallo">Giallo</option>
+					<option value="fantascienza">Fantascienza</option>
+					<option value="avventura">Avventura</option>
+					<option value="drammatico">Drammatico</option> 
+				</select>
+				
+				<!-- Contenuto Recensione -->
+				<label for="contenuto_recensione">Contenuto Recensione</label>
+				<textarea id="contenuto_recensione" name="contenuto_recensione" rows="10" cols="20"></textarea>
+				
+				<!-- Voto Finale -->
+				<label for=voto_finale>Voto Finale</label>
+				<select id="voto_finale" name="voto_finale">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+				
+				<!-- Pulsante Salva -->
+				<input type="submit" value="Inserisci Recensione">
+			</form>
+		</section>
+		
+		<footer>
+			<h1>Footer</h1>
+			
+			<div>
+				<p>Autore: Alessandro Carcangiu
+			</div>
+		</footer>
+		
+	</body>
+</html>

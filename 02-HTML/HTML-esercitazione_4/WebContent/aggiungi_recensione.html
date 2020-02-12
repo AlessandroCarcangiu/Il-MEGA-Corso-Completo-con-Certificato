@@ -1,0 +1,60 @@
+<!-- 
+- Crea un form per inserire i dati necessari per la creazione di un nuovo oggetto, utilizzando il tipo di input corretto (testuale, selezione singola o multipla).
+- NB non preoccuparti di definire l'attributo action del form, lo vedremo meglio quando studieremo la parte sui server 
+ -->
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog Cinema</title>
+		<meta name="description" content="Blog Alessandro Carcangiu Cinema">
+		<meta name="keywords" content="Film, Fantasy, Cinema, SerieTv">
+		<meta name="author" content="Alessandro Carcangiu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		
+		<h1>Scrivi Recensione</h1>
+		
+		<form>
+			
+			<!-- Nome Film -->
+			<label for="nome_film">Nome Film</label>
+			<input type="text" id="nome_film" name="name_film" value="Inserisci Nome Film"/>
+			
+			<!-- Genere -->
+			<label for="genere">Genere</label>
+			<select id="genere" name="genere" multiple size="3">
+				<option value="thriller">Thriller</option>
+				<option value="giallo">Giallo</option>
+				<option value="fantascienza">Fantascienza</option>
+				<option value="avventura">Avventura</option>
+				<option value="drammatico">Drammatico</option> 
+			</select>
+			
+			<!-- Contenuto Recensione -->
+			<label for="contenuto_recensione">Contenuto Recensione</label>
+			<textarea id="contenuto_recensione" name="contenuto_recensione" rows="10" cols="20"></textarea>
+			
+			<!-- Voto Finale -->
+			<label for=voto_finale>Voto Finale</label>
+			<select id="voto_finale" name="voto_finale">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			
+			<!-- Pulsante Salva -->
+			<input type="submit" value="Inserisci Recensione">
+		</form>
+		
+	</body>
+</html>

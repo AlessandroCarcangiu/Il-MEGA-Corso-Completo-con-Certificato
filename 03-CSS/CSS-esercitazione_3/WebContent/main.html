@@ -1,0 +1,292 @@
+<!-- 
+Riprendete il progetto che avete creato durante l’esercitazione scorsa. Finalmente è arrivato il momento di inserire il logo della pagina. 
+In particolare, questo deve rimanere alla sinistra del testo. Poiché si tratta di un’immagine decorativa, che non aggiunge informazione al titolo, sarebbe meglio non utilizzare il tag ​img.  
+
+Infatti, è buona norma non inserire delle immagini puramente decorative nel codice HTML. Ricordati che puoi sempre eliminarle usando altre regole CSS, senza dover modificare la tua pagina/e. 
+Per far ciò, imposta l'immagine di sfondo per il tag ​h1 all'interno del ​header (assegnagli magari un class=​logo). Trova un logo per la tua pagina​ ed imposta gli attributi corrispondenti alle seguenti descrizioni:
+	● immagine di sfondo: l'immagine che avete salvato
+	● nessuna ripetizione dello sfondo
+	● immagine di sfondo centrata verticalmente
+	● immagine di sfondo posizionata a sinistra orizzontalmente
+A questo punto l'immagine risulterà sovrapposta al testo. Per evitare questo, imposta il padding del box relativo in modo che non si sovrappongano.
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog Cinema</title>
+		<meta name="description" content="Blog Alessandro Carcangiu Cinema">
+		<meta name="keywords" content="Film, Fantasy, Cinema, SerieTv">
+		<meta name="author" content="Alessandro Carcangiu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_1.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_2.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_3.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_1_task_4.css">
+		<link rel="stylesheet" type="text/css" href="css/esercitazione_3_task_2.css">
+	</head>
+	<body>
+		
+		<header>
+			<h1 class="logo">Header</h1>
+			
+			<ul>
+				<li id="current_page"><a href="#">Main</a></li>
+				<li><a href="aggiungi_recensione.html">Aggiungi una nuova recensione</a></li>
+				<li><a href="recensioni_tabella.html">Recensioni scritte</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</header>
+		
+		<nav id="content-sidebar">
+			<h1>Sidebar</h1>
+			
+			<input type="text" value="Cerca recensione">
+		</nav>
+		
+		<section id="content-main">
+			<!-- titolo e presentazione -->
+			<h1>
+				Blog Cinema
+			</h1>
+			<p>
+				Abbado paragonava la cultura all'acqua. Semplice nella sua forma, ma indispensabile per vivere. I teatri, le biblioteche, i musei e
+				i cinema non sono altro che immensi acquedotti che distribuiscono cultura e informazione ovunque e a chiunque senta il bisogno di arrichire il proprio animo.  
+				In questi anni bui, si tende quasi a disprezzare la conoscenza e la cultura ma non dovremo mai, e poi mai, sottovalutare l'importanza di tali elementi. 
+				Noi, oggi, siamo qui anche grazie ad essi e a chi ha combattuto e lavorato per rendere l'arte e la cultura accessibile a chiunque. 
+				In questo blog, mi concentrerò principalmente su uno dei tanti rami da cui è possibile creare cultura: il cinema. I film ci possono regalare un'infinita di sentimenti,
+				posso regalarci un sorriso, farci riflettere, ragionare, piangere o semplicemente svuotarci il corpo dallo stress accumulato.  
+				Una recensione di un film ogni giorno, con l'obiettivo di analizzare nei minimi dettagli la storia che racconta e i personaggi che la raccontano.
+			</p>
+			
+			<!-- indice sezioni -->
+			<ul>
+				<li><a href="#thriller">Thriller</a>
+				<li><a href="#giallo">Giallo</a>
+				<li><a href="#fantascienza">Fantascienza</a>
+				<li><a href="#avventura">Avventura</a>
+				<li><a href="#drammatico">Drammatico</a>
+			</ul>
+					
+			<section id="thriller">
+				<h2>Thriller</h2>
+				<p>
+					Il thriller (dall'inglese to thrill, rabbrividire) è un genere di fiction che utilizza <strong> la suspense, la tensione e l'eccitazione come elementi principali della trama </strong>. 
+					<b>È diffuso sia in letteratura, che nel cinema o nella televisione </b>. Più diffuso negli Stati Uniti che in Europa, il genere thriller è suddiviso in diversi sottogeneri.
+				</p>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEJORncZr1ZDqbRHtDhchZRRcrsZX5sgi17YYvZTlGxY3gb6oL&s"
+					 alt="Testo da mostrare se l'immagine non viene caricata"
+					 title="Testo da mostare se l'utente posiziona il puntatore del mouse sopra l'immagine">
+					 
+				<div>
+					<h5>Caratteristiche</h5>
+					<p>
+						Il genere thriller stimola fortemente gli stati d'animo del fruitore dell'opera innestando, tramite l'anticipazione, un alto livello di aspettativa e al contempo di incertezza, 
+						sorpresa, ansia e/o terrore. In particolare nelle fiction cinematografiche e televisive, i thriller tendono ad essere adrenalinici, esaltanti e dal ritmo incalzante. 
+						Accorgimenti tipicamente letterari quali falsi indizi, colpi di scena e complotti sono ampiamente utilizzati. La trama del thriller è di solito portata avanti dal cattivo 
+						che crea ostacoli che il protagonista deve poi superare.
+					</p>
+					<hr>
+					<h5>Obiettivo</h5>
+					<p>
+						L'obiettivo dei thriller è in generale quello di mantenere alta l'attenzione del fruitore tramite l'espediente della tensione. Il protagonista si trova contro un ostacolo o 
+						un mistero. Qualsiasi sia il sottogenere, il thriller mette in risalto il pericolo che il protagonista deve fronteggiare. Questa tensione viene costruita nel corso di tutta 
+						l'opera e può condurre ad un climax altamente stressante. L'insabbiamento di informazioni importanti nel corso della trama e gli inseguimenti con scontri fisici sono comuni 
+						nelle trame di tutti i sottogeneri thriller, anche se ogni sottogenere ha le proprie caratteristiche uniche e metodi per tenere alta la tensione.
+					</p>
+				</div>
+				
+				<div>
+					<h4>I migliori Thriller</h4>
+					<ol>
+						<li>
+							La finestra sul cortile <a href="#">compralo su questo sito</a> 
+						</li>
+						<li>
+							Rapina a mano armata <a href="https://www.rottentomatoes.com/m/killing" target="_blank">leggi la sua recensione</a>
+						</li>
+					</ol>
+				</div>
+			</section>	
+			
+			<section id="giallo">
+				<h2>Giallo</h2>
+				<p>
+					Il cinema <mark>giallo</mark>, nel senso più ampio, è un genere cinematografico che tratta del genere narrativo giallo. 
+				</p>
+				<img src="images/la-signora-in-giallo-1090943.png"
+					 alt="Testo da mostrare se l'immagine non viene caricata"
+					 title="Testo da mostare se l'utente posiziona il puntatore del mouse sopra l'immagine">
+						
+				<p>
+					I film appartenenti a questo genere coinvolgono generalmente vari 
+				</p>
+				<p>
+					aspetti del crimine e della lotta allo stesso. Stilisticamente, il genere può sconfinare e combinarsi con molti altri generi cinematografici, primo fra tutti il dramma, ma 
+					anche la commedia e, a sua volta, è diviso in molti <em>sottogeneri</em>, come ad esempio il <i>noir</i>.
+				</p>
+				
+				<div>
+					<h4>Sottogeneri del Giallo</h4>
+					<ul>
+						<li>Poliziesco</li>
+						<li>Hard Boiled</li>
+						<li>Noir</li>
+						<li>Noir Scandinavo</li>
+					</ul>
+				</div>
+				
+				<div>
+					<h4>I migliori Gialli</h4>
+					<ol>
+						<li>
+							Profondo Rosso <a href="#">compralo su questo sito</a> 
+						</li>
+						<li>
+						Tenebre <a href="https://www.rottentomatoes.com/m/tenebre" target="_blank">leggi la sua recensione su <em>Rotten Tomatoes</em></a>
+						</li>
+					</ol>
+				</div>
+			</section>
+			
+			<section id="fantascienza">
+				<h2>Fantascienza</h2>
+				<p>
+					Il cinema di fantascienza (o fantascientifico) è uno dei generi cinematografici più popolari. In esso, i temi tipici della fantascienza sono colonna portante per lo sviluppo 
+					della trama. Nei film di fantascienza, il meccanismo narrativo viene innescato dalla presenza di elementi scientifici immaginari o ipotetici, come potrebbero essere ad esempio 
+					la formulazione di una nuova teoria matematica, l'invenzione di apparecchiature tecnologiche innovative o la scoperta di nuovi e promettenti sviluppi nel campo della bioingegneria. 
+					Solitamente questo genere di film viene ambientato in un contesto legato a una visione più o meno lontana del futuro, come quello dei viaggi interstellari, quello del contatto con 
+					entità extraterrestri, quello dei conflitti nucleari o delle catastrofi climatiche globali.
+					<br>
+					Benché il cinema di fantascienza sia stato riconosciuto come genere autonomo solo a partire dagli anni cinquanta, l'elemento del fantastico era ben presente fin dagli esordi 
+					della settima arte. Nel corso degli anni, il cinema fantascientifico ha saputo esplorare un'enorme rosa di soggetti e temi differenti, molti dei quali non avrebbero potuto essere 
+					rappresentati in altro modo. Una delle qualità che rende affascinante questo genere è la sua propensione a comunicare messaggi filosofici o politici con elegante sottigliezza: 
+					le opere di fantascienza sono state spesso utilizzate per affrontare delicati temi sociali e di attualità – come il pacifismo, la guerra fredda, la xenofobia, le conseguenze 
+					dell'inquinamento – in periodi storici attraversati da crisi morali, pur senza rinunciare, nel contempo, a offrire intrattenimento per gli spettatori meno smaliziati. 
+					Le produzioni fantascientifiche hanno sempre figurato in prima linea per quanto riguarda l'aspetto più tecnico degli effetti speciali e con il tempo le platee di appassionati 
+					si sono abituate alla rappresentazione realistica di forme di vita aliene, spettacolari battaglie spaziali, armi a energia e mondi surreali, a conseguenza del sempre più rapido 
+					progredire delle tecnologie animatronica e computer grafica.
+				</p>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVd0XV5Duy8MQVP0RA2PNtRldTRNuQziQ7ccniO0v-8Y6rITL&s"
+					 alt="Testo da mostrare se l'immagine non viene caricata"
+					 title="Testo da mostare se l'utente posiziona il puntatore del mouse sopra l'immagine">
+					 
+				<div>
+					<h4>Primordi</h4>
+					<p>
+						Gli inizi della storia del cinema di fantascienza coincidono o quasi con quelli della <em>settima arte</em>. Il neonato cinema viene scoperto infatti come uno strumento che permette di portare
+						sullo schermo non solo la realtà quotidiana, ma anche come mezzo straordinario e innovativo per visualizzare i sogni e le fantasie dell'essere umano, in modo da suscitare stupore 
+						e meraviglia nello spettatore, a un livello che non sarebbe stato possibile sul palco di un teatro. Le qualità illusorie del cinema sono l'ideale per narrare di cose che non 
+						sono reali, o che non lo sono ancora.
+					</p>
+					<hr>
+					<h4>Anni trenta e quaranta</h4>
+					<p>
+					Durante gli anni segnati dalla Grande depressione (1929) il pubblico americano cerca spesso dei modi per astrarsi dalla dura realtà quotidiana. Tra i molti musical 
+						che invadono i cinema con l'invenzione del sonoro vi è I prodigi del 2000 (<em>Just Imagine</em>) del 1930 di David Butler, una singolare commedia musicale in cui un uomo 
+						colpito da una luce nel 1930 si risveglia cinquant'anni dopo nella New York del 1980.
+						
+						<em>Frankenstein</em> per la regia di James Whale del 1931, con Boris Karloff nei panni del mostro, è il secondo e probabilmente il più noto tra i molti film ispirati al 
+						romanzo omonimo di Mary Shelley, divenendo un capostipite per il filone dell'horror fantascientifico. Whale ne dirigerà un seguito all'altezza nel 1935 con 
+						<em>La moglie di Frankenstein</em> (Bride of Frankenstein). La mescolanza di elementi scientifici, horror e pazzia era già stata introdotta con due capolavori 
+						del cinema espressionista tedesco, <em>Il gabinetto del dottor Caligari</em> (Das Cabinet des Dr. Caligari) del 1920 di Robert Wiene e <em>Il dottor Mabuse</em>
+						(Dr. Mabuse, der Spieler) di Lang del 1922, dominati da magnetiche e negative figure di uomini di scienza (uno psicologo e uno psicoanalista votati al male), 
+						che verranno stereotipati nel personaggio dello "scienziato pazzo".
+					</p>
+				</div>
+				
+				<div>
+					<h4>I migliori film di Fantascienza</h4>
+					<ol>
+						<li>
+							Star Wars Ep. 4 <a href="#">compralo su questo sito</a> 
+						</li>
+						<li>
+							2001: Odissea nello Spazio <a href="https://www.rottentomatoes.com/m/2001_a_space_odyssey" target="_blank">leggi la sua recensione su <em>Rotten Tomatoes</em></a>
+						</li>
+					</ol>
+				</div>
+			</section>
+			
+			<section id="avventura">
+				<h2>Avventura</h2>
+				<p>
+					Un film d'avventura è un genere di film che rispecchia un mondo eroico di battaglie e avventure. 
+				</p>
+				<img src="images/jurassic_park.jpg"
+					 alt="Testo da mostrare se l'immagine non viene caricata"
+					 title="Testo da mostare se l'utente posiziona il puntatore del mouse sopra l'immagine">	
+				<p>
+					In questo genere tendono a dominare l'azione e i valori cavallereschi. 
+					Genere adottato in Italia come un modo di esaltare il suo passato storico, per essere successivamente utilizzato in altri paesi, ad esempio, in Russia per l'esaltazione 
+					della rivoluzione russa.
+				</p>
+				<p>
+					Sottogenere dei film d'avventura possono essere considerati i cosiddetti film di cappa e spada, storie in costume con combattimenti all'arma bianca, come la serie dei film tratti 
+					dalle opere di Alexandre Dumas e dall'omonimo figlio o anche avventure tipo La leggenda di Robin Hood (1938) con Errol Flynn. Successivamente titoli come I predatori dell'arca 
+					perduta (1981)* diedero nuove innovazioni al genere negli anni ottanta, che ha avuto i suoi alti e bassi di interesse nel corso della storia del cinema.
+				</p>
+				<small>* diretto da Steven Spielberg</small>
+				
+				<div>
+					<h4>I migliori film di Avventura</h4>
+					<ol>
+						<li>
+							Jurassic Park <a href="#">compralo su questo sito</a> 
+						</li>
+						<li>
+							I Goonies <a href="https://www.rottentomatoes.com/m/goonies" target="_blank">leggi la sua recensione su <em>Rotten Tomatoes</em></a>
+						</li>
+					</ol>
+				</div>
+			</section>
+			
+			<section id="drammatico">
+				<h2>Drammatico</h2>
+				<p>
+					Un film drammatico è un genere di film che si basa sullo sviluppo dei personaggi, dell'interazione tra essi e che tratta temi di impatto emotivo.
+				</p>
+				<img src="https://staticr1.blastingcdn.com/media/photogallery/2019/10/29/660x290/b_502x220/replica-titanic-film-disponibile-in-streaming-online-su-mediaset-play_2346365.jpg"
+					 alt="Testo da mostrare se l'immagine non viene caricata"
+					 title="Testo da mostare se l'utente posiziona il puntatore del mouse sopra l'immagine">	
+					 
+				<p>
+					La definizione del genere è complessa e non ne esiste una universalmente condivisa, né dal punto di vista stilistico né tematico. È possibile darne una definizione per esclusione: 
+					i toni devono essere seri e non leggeri come nei film commedia; i sentimenti sono spesso centrali, ma non devono essere eccessivi come nel melodramma; 
+					non devono prevalere né l'azione (come nei film d'azione) né l'intreccio (come nel cinema giallo), e così via.
+				</p>
+				<p>
+					In un film drammatico<sub>, il pubblico</sub> è in grado di sperimentare ciò che sono i personaggi<sup> e ha la sensazione</sup> di identificarsi con loro. Questo genere potrebbe essere particolarmente 
+					utile per confutare lo stereotipo o qualsiasi altra troppo semplicistica generalizzazione della settima arte e dimostrare che la stessa si trova ad un più complesso livello. 
+					Alcuni film del genere potrebbero anche essere terapeutici, mostrando come i personaggi fanno fronte con i loro problemi, le sfide, ed essere in un certo modo in grado di 
+					far identificare lo spettatore con i personaggi.
+				</p>
+				
+				<div>
+					<h4>I migliori film Drammatici</h4>
+					<ol>
+						<li>
+							Schindler's List <a href="#">compralo su questo sito</a> 
+						</li>
+						<li>
+							Titanic <a href="https://www.rottentomatoes.com/m/titanic" target="_blank">leggi la sua recensione su <em>Rotten Tomatoes</em></a>
+						</li>
+					</ol>
+				</div>
+			</section>
+		</section>
+		
+		<footer>
+			<h1>Footer</h1>
+			
+			<div>
+				<p>Autore: Alessandro Carcangiu
+			</div>
+		</footer>
+		
+		
+	</body>
+</html>

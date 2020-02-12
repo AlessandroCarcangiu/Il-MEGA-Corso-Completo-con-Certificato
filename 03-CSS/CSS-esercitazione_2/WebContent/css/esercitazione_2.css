@@ -1,0 +1,26 @@
+/*
+	Considera un ​div con id=id_1, con associata la seguente regola css:
+	#id_1 {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	margin: 20px;
+	padding: 10px;
+	background-color: grey;
+	width: 150px;
+	height: 250px;
+	}
+	Calcolare l'altezza e la larghezza totale del blocco. Dopo di che verificare le dimensioni effettive del blocco tramite i developer tools di Chrome.
+*/
+#id_1 {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 30px solid black;
+	border-right: 6px solid black;
+	margin: 20px;
+	padding: 10px;
+	background-color: grey;
+	width: 150px;
+	height: 250px;
+}

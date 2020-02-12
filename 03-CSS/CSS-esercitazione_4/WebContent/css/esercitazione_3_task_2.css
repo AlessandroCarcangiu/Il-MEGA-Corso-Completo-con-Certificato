@@ -1,0 +1,13 @@
+#content-sidebar{
+	width: 20%;
+	float: left;
+}
+
+#content-main{
+	width:70%;
+	float: right;
+}
+
+footer{
+	clear: both;
+}

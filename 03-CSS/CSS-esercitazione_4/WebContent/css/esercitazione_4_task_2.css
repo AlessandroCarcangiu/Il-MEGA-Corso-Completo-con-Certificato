@@ -1,0 +1,14 @@
+/*
+X per tutti gli ​li imposta la proprietà ​position: relative
+X ‘abbassa’ gli ​li di un numero di pixel uguale allo spessore del bordo dell’​ul utilizzando la proprietà ​top
+X imposta lo stesso colore sia al bordo che allo sfondo per l'elemento con id = current_page, bianco per l'esempio.
+*/
+#menu li{
+	position: relative;
+	top: 2px;
+}
+
+
+#current_page{
+	border-bottom-color: white;
+}
