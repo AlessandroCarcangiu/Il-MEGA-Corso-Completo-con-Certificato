@@ -1,0 +1,25 @@
+.box{
+	height: 200px;
+	margin: 2% 2% 2% 2%; 
+}
+
+header{
+	background-color: green;
+}
+
+nav{
+	background-color: black;
+	width: 20%;
+	float: left;
+}
+
+section{
+	background-color: yellow;
+	width:70%;
+	float: right;
+}
+
+footer{
+	background-color: blue;
+	clear: both;
+}

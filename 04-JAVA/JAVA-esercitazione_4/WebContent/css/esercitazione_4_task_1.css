@@ -1,0 +1,25 @@
+/*
+X inserisci allâ€™intero di un div, con id = menu, i link alle pagine che compongono il tuo progetto; 
+X seleziona un colore per delineare il contorno delle schede;
+X imposta il bordo inferiore dell'intera lista (â€‹ul) di quel colore, scegliendo uno spessore;
+X imposta il â€‹display degli â€‹li della lista in questione ad â€‹inline-block. Questo permette di impostare una dimensione fissa per tutte le schede (i nostri â€‹li) senza che questi vengano disegnati nella riga successiva;
+X imposta i bordi destro, sinistro e superiore degli li con il colore per il contorno delle schede;
+X imposta i margin degli â€‹li ed il padding del tag â€‹ul in modo che il bordo destro e sinistro delle schede tocchi il bordo inferiore dell'â€‹ul
+*/
+#menu ul{
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+#menu li{
+	display: inline-block;
+	border-top-color: black;
+	border-right-color: black;
+	border-left-color: black;
+	border-width: 2px;
+	border-style: solid;
+	
+	margin: 0px 2px 0px 2px;
+	padding: 0px 40px 0px 40px;
+}
