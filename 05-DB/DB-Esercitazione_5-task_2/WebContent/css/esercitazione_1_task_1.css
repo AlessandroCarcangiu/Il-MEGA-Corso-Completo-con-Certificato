@@ -1,0 +1,18 @@
+/*
+X immagine di sfondo: l'immagine che avete salvato
+X nessuna ripetizione dello sfondo
+X immagine di sfondo centrata verticalmente
+X immagine di sfondo posizionata a sinistra orizzontalmente
+A questo punto l'immagine risulterà sovrapposta al testo. Per evitare questo, imposta il padding del box relativo in modo che non si sovrappongano.
+*/
+
+h1.logo
+{
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-position: left center;
+	background-size: 100px 100px;
+	
+	padding-left: 125px;
+}

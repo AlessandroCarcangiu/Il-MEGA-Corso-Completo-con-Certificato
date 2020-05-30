@@ -1,0 +1,36 @@
+input{
+    border: 1px solid #1c345a;
+}
+
+input[type=submit], button{
+    color: #ffffff;
+    background-color: #1c345a;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+    border: 1px solid #1c345a;
+    min-width: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+input[type=submit]:hover, button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+label.full{
+    display: inline-block;
+    width: 70%;
+}
+
+label{
+    display: inline-block;
+    width: 30%;
+}
+
+.input-form{
+    line-height: 3em;
+    border-bottom: 1px solid #1c345a;
+}

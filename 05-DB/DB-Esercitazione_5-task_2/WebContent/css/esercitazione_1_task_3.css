@@ -1,0 +1,9 @@
+/*
+X Impostare il colore di sfondo dell’header con il seguente valore esadecimale: #1c345a. Ripetere la stessa operazione con il footer.
+X Impostare il colore del testo nel header a bianco. Ripetere la stessa operazione con il footer.
+*/
+.logo, footer
+{
+	background-color: #1c345a;
+	color: white;
+}
