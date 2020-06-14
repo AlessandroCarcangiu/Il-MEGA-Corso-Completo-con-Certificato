@@ -1,0 +1,26 @@
+<html><head>
+		<meta charset="UTF-8">
+		<title>JAVASCRIPT-DOM - Esercizio 3</title>
+		<meta name="author" content="Alessandro Carcangiu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="script-esercizio_3.js"></script>
+	</head>
+	<body>
+		<section id="main">
+			<h1>Paninoteca - MOZZARELLA NE VUOI?</h1>
+			
+			<select multiple size="5" id="select">
+				<option value="radicchio">Radicchio</option>
+				<option value="hamburger_pollo">Hamburger di Pollo</option>
+				<option value="salmone_polpo">Salmone e Polpo</option>
+				<option value="cipolle_rosse">Cipolle Rosse</option>
+				<option value="tofu">Tofu</option>
+			</select>
+			
+			<button onclick="verifica(event)">Invia</button>
+			
+			<p id="risultato_ordinazione"></p>
+		</section>
+	</body>
+</html>

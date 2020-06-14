@@ -1,0 +1,35 @@
+/* PARTE 1
+X Associare l’elemento che indica la pagina corrente all’id=‘current_page’. Creare una regola per impostare il suo testo in grassetto. 
+X Fare in modo che i tag ‘h1’ contenuti nella sezione id=‘content-main’, siano visualizzati con il seguente colore esadecimale: #6e0c0c.
+- Impostare a #1c345a il colore di tutti i rimanenti tag h (da h2 ad h6) con una sola regola.
+*/
+#current_page{
+	font-weight: bold;
+}
+
+#content-main h1{
+	color: #6e0c0c;
+}
+
+#content-main h2,h3,h4,h5,h6{
+	color: #1c345a;
+}
+
+
+/* SECONDA PARTE
+X Impostare a #9e1616 il colore di tutti i link, sia quelli visitati che quelli non visitati. Inoltre, fare in modo che il testo sia in grassetto quando il cursore del mouse passa sopra il link.
+- Impostare a #1c345a il colore dei link che hanno l'attributo href esattamente uguale a login.html.
+*/
+a:link, a:visited{
+	color: #9e1616;
+}
+
+a:hover{
+	font-weight:bold;
+	color: black;
+	font-size: 30px;
+}
+
+a[href*='login.html']{
+	color: #1c345a;
+}
